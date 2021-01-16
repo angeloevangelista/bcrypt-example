@@ -1,0 +1,27 @@
+### Auth
+
+POST http://127.0.0.1:3333/auth HTTP/1.1
+content-type: application/json
+
+{
+  "email": "angeloevan.ane@gmail.com",
+  "password": "123456"
+}
+
+### Users
+
+GET http://127.0.0.1:3333/users HTTP/1.1
+
+###
+
+GET http://127.0.0.1:3333/users/angeloevan.ane@gmail.com HTTP/1.1
+
+###
+
+POST http://127.0.0.1:3333/users HTTP/1.1
+content-type: application/json
+
+{
+  "email": "angeloevan.ane@gmail.com",
+  "password": "123456"
+}

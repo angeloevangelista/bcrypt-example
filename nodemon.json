@@ -1,0 +1,6 @@
+{
+  "ignore": ["node_modules"],
+  "execMap": {
+    "js": "sucrase-node src/server.js"
+  }
+}
